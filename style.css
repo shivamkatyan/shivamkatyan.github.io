@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f1117;
+  color: #e5e5e5;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1c1e24, #2a2d33);
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.hero h1 span {
+  color: #00aaff;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.6rem;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #33c6ff;
+}
+
+h2 {
+  color: #00aaff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.project {
+  background: #1a1d24;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-3px);
+}
+
+.project h3 {
+  color: #00aaff;
+  margin-bottom: 0.4rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  background: #191b20;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+}
